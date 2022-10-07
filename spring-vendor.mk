@@ -639,7 +639,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/spring/proprietary/vendor/etc/qcril_database/upgrade/other/7_version_update_modules.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/7_version_update_modules.sql \
     vendor/xiaomi/spring/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     vendor/xiaomi/spring/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
-    vendor/xiaomi/spring/proprietary/vendor/etc/seccomp_policy/atfwd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/atfwd@2.0.policy \
     vendor/xiaomi/spring/proprietary/vendor/etc/seccomp_policy/c2audio.vendor.base-arm64.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/c2audio.vendor.base-arm64.policy \
     vendor/xiaomi/spring/proprietary/vendor/etc/seccomp_policy/c2audio.vendor.ext-arm64.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/c2audio.vendor.ext-arm64.policy \
     vendor/xiaomi/spring/proprietary/vendor/etc/seccomp_policy/codec2.vendor.base-arm64.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.base-arm64.policy \
@@ -1518,7 +1517,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.radio.am-V1-ndk \
     vendor.qti.hardware.radio.am@1.0 \
     vendor.qti.hardware.radio.atcmdfwd@1.0 \
-    vendor.qti.hardware.radio.atfwd-V1-ndk \
     vendor.qti.hardware.radio.common-V1-ndk \
     vendor.qti.hardware.radio.ims-V16-ndk \
     vendor.qti.hardware.radio.ims@1.0 \
@@ -1691,7 +1689,6 @@ PRODUCT_PACKAGES += \
     uimgbaservice \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     HotwordEnrollmentYGoogleHEXAGON_WIDEBAND \
-    AtFwd2 \
     PowerOffAlarm \
     QtiTelephonyService \
     QtiTelephony \
@@ -1723,7 +1720,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss-aidl-service-qti.xml \
     android.hardware.radio.config.xml \
     android.hardware.security.keymint-service-qti-rkp.xml \
-    atfwd-saidl.xml \
     c2_manifest_vendor_audio.xml \
     c2_manifest_vendor_spring.xml \
     datafactoryservice-saidl.xml \
@@ -1753,7 +1749,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.qesdsys.service.xml \
     manifest_vendor.xiaomi.hardware.mlipay.xml \
     vendor.xiaomi.sensor.citsensorservice.aidl.xml \
-    ATFWD-daemon \
     SoterProvisioningTool \
     adpl \
     adsprpcd \
